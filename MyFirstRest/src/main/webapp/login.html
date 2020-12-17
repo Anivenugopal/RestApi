@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+ 
+<link rel="stylesheet" type="text/css" href="login.css">
+ 
+</head>
+ 
+<body bgcolor="#87ceeb">
+ 
+<div id="container">
+        <form method = "post" action = "JspDB.jsp">
+
+<div style="text-align:center">
+    <h2>User Portal</h2>
+  </div>
+ 
+<label for="uname" id="un">Username:</label>
+<input type="text" name="username" placeholder="Enter Username" id="uname"><br/><br/>
+ 
+<label for="upass" id="ps">Password:</label>
+<input type="password" name="pwd" placeholder="Enter Password" id="upass"><br/><br/>
+ 
+<button type="submit" value="Login"  id="submit" name = "s1">Login</button>
+ 
+ <!-- Note:-use "&amp;nbsp"(use in html) or "margin"(left/right in css in head tag) to adjust the space) -->
+ 
+<a href="register.html">Register</a>
+ 
+</form>
+        <a href="JspDB.jsp? s1=link"></a>
+
+</div>
+ 
+</body>
+</html>
